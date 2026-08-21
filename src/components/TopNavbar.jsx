@@ -7,7 +7,7 @@ export default function TopNavbar() {
   if (!isVisible) return null;
 
   return (
-    <div className="bg-black text-white text-center py-2 px-8 sm:px-10 text-[11px] sm:text-xs font-light relative flex items-center justify-center min-h-[36px]">
+    <div className="bg-black text-white text-center py-2 px-8 sm:px-10 text-[11px] sm:text-xs font-light relative flex items-center justify-center min-h-9">
       
       {/* Center Text Container */}
       <div className="flex flex-wrap items-center justify-center gap-1 sm:gap-2 leading-tight">

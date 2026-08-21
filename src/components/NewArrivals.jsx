@@ -90,7 +90,7 @@ const ProductCard = ({ product }) => {
         />
       </div>
       <div className="w-full space-y-2">
-        <h3 className="text-xl font-semibold text-gray-800 line-clamp-2 min-h-[56px]">{product.name}</h3>
+        <h3 className="text-xl font-semibold text-gray-800 line-clamp-2 min-h-14">{product.name}</h3>
         <div className="flex items-center space-x-1.5">
           <div className="flex space-x-0.5 text-lg">
             {renderStars(product.rating)}

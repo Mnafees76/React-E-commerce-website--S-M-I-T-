@@ -20,7 +20,7 @@ function App() {
       <TopNavbar />
       <MainNavbar />
       
-      <div className="flex-grow">
+      <div className="grow">
         <Routes>
           {/* Main Home Route */}
           <Route 

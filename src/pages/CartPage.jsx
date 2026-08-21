@@ -34,7 +34,7 @@ const CartPage = () => {
 
   return (
     <div className="bg-white min-h-screen font-sans flex flex-col justify-between">
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 w-full flex-grow">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 w-full grow">
         
         {/* Breadcrumb Navigation */}
         <nav className="mb-6 text-sm text-gray-500 flex items-center space-x-2">
@@ -58,7 +58,7 @@ const CartPage = () => {
                 <div key={item.id}>
                   <div className="flex items-center justify-between gap-4 py-2">
                     {/* Product Image */}
-                    <div className="w-24 h-24 sm:w-28 sm:h-28 bg-[#F0EEED] rounded-xl flex-shrink-0 flex items-center justify-center p-2">
+                    <div className="w-24 h-24 sm:w-28 sm:h-28 bg-[#F0EEED] rounded-xl shrink-0 flex items-center justify-center p-2">
                       <img
                         src={item.image}
                         alt={item.name}

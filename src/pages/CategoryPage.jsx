@@ -102,7 +102,7 @@ const CategoryPage = () => {
 
   return (
     <div className="bg-white min-h-screen font-sans flex flex-col justify-between">
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 w-full flex-grow">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 w-full grow">
         
         {/* Breadcrumb Navigation */}
         <nav className="mb-6 text-sm text-gray-500 flex items-center space-x-2">

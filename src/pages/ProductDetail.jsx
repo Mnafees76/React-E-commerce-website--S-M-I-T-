@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useLocation, Link, useNavigate } from 'react-router-dom';
-import Newsletter from '../components/Newsletter';
-import Footer from '../components/Footer';
+
 
 const ProductDetail = () => {
   const location = useLocation();
@@ -200,7 +199,7 @@ const ProductDetail = () => {
 
   return (
     <div className="bg-white min-h-screen font-sans flex flex-col justify-between">
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex-grow w-full">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 grow w-full">
         
         {/* Breadcrumb */}
         <nav className="mb-8 text-sm text-gray-500 flex items-center space-x-2">
@@ -232,8 +231,8 @@ const ProductDetail = () => {
               ))}
             </div>
             
-            <div className="bg-[#F0EEED] rounded-3xl p-6 flex items-center justify-center flex-grow min-h-[350px] md:min-h-[450px]">
-              <img src={imageList[selectedImageIndex] || imageList[0]} alt={product.name} className="max-h-[350px] object-contain" />
+            <div className="bg-[#F0EEED] rounded-3xl p-6 flex items-center justify-center grow min-h-87.5 md:min-h-112.5">
+              <img src={imageList[selectedImageIndex] || imageList[0]} alt={product.name} className="max-h-87.5 object-contain" />
             </div>
           </div>
 

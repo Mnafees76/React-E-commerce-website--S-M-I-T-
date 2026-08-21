@@ -11,7 +11,7 @@ const Newsletter = () => {
         </h2>
 
         {/* Right Form Inputs */}
-        <div className="flex flex-col space-y-3.5 w-full md:w-[350px]">
+        <div className="flex flex-col space-y-3.5 w-full md:w-87.5">
           
           {/* Email Input Field */}
           <div className="relative flex items-center">

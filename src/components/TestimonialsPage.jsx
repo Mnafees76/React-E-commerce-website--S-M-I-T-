@@ -94,7 +94,7 @@ const Testimonials = () => {
           {reviews.map((review) => (
             <div
               key={review.id}
-              className="w-[350px] md:w-[400px] border border-gray-200 rounded-3xl p-6 md:p-7 flex flex-col justify-between shrink-0 bg-white"
+              className="w-87.5 md:w-100 border border-gray-200 rounded-3xl p-6 md:p-7 flex flex-col justify-between shrink-0 bg-white"
             >
               <div className="space-y-3">
                 {/* 5 Stars Rating */}

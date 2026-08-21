@@ -49,7 +49,7 @@ const BrowseByStyle = () => {
             <Link
               key={category.id}
               to={category.link}
-              className={`relative bg-white h-[200px] sm:h-[280px] rounded-3xl overflow-hidden group transition-all duration-300 hover:shadow-lg ${category.colSpan}`}
+              className={`relative bg-white h-50 sm:h-70 rounded-3xl overflow-hidden group transition-all duration-300 hover:shadow-lg ${category.colSpan}`}
             >
               {/* Category Title */}
               <span className="absolute top-6 left-6 text-2xl md:text-3xl font-bold text-black z-10">
