@@ -71,7 +71,7 @@ export default function Hero() {
 
           {/* Main Hero Image */}
           <img 
-            src="/images/hero.jpg" 
+            src="./images/hero.jpg" 
             alt="Fashion Models" 
             className="w-full max-w-xs sm:max-w-md lg:max-w-lg object-cover object-top h-auto max-h-125 block align-bottom"
           />
