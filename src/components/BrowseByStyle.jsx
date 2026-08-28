@@ -5,28 +5,28 @@ const categories = [
   {
     id: 1,
     title: 'Casual',
-    image: '/images/casual.png', // Apni image Path lagayein
+    image: './images/Frame 61.png', 
     link: '/category/casual',
     colSpan: 'md:col-span-1',
   },
   {
     id: 2,
     title: 'Formal',
-    image: '/images/formal.png', // Apni image Path lagayein
+    image: './images/image 13.png',
     link: '/category/formal',
     colSpan: 'md:col-span-2',
   },
   {
     id: 3,
     title: 'Party',
-    image: '/images/party.png', // Apni image Path lagayein
+    image: './images/image 12.png', 
     link: '/category/party',
     colSpan: 'md:col-span-2',
   },
   {
     id: 4,
     title: 'Gym',
-    image: '/images/gym.png', // Apni image Path lagayein
+    image: './images/image 14.png', 
     link: '/category/gym',
     colSpan: 'md:col-span-1',
   },

@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 import NewArrivals from './components/NewArrivals'
 import ProductDetail from './pages/ProductDetail'
 // File name ke exact small 'c' casing ke sath import
-import CategoryPage from './pages/categoryPage' 
+import CategoryPage from './pages/CategoryPage' 
 import MainNavbar from './components/MainNavbar'
 import TopNavbar from './components/TopNavbar'
 import TopSelling from './components/TopSelling'

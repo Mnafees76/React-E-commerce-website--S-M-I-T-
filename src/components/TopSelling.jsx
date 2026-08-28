@@ -7,7 +7,7 @@ const products = [
   {
     id: 1,
     name: 'Vertical Striped Shirt',
-    image: '/images/vertical-shirt.png',
+    image: './images/Frame .png',
     rating: 5.0,
     currentPrice: 212,
     originalPrice: 232,
@@ -16,7 +16,7 @@ const products = [
   {
     id: 2,
     name: 'Courage Graphic T-shirt',
-    image: '/images/graphic-tshirt.png',
+    image: './images/shart.png',
     rating: 4.0,
     currentPrice: 145,
     originalPrice: null,
@@ -25,7 +25,7 @@ const products = [
   {
     id: 3,
     name: 'Loose Fit Bermuda Shorts',
-    image: '/images/bermuda-shorts.png',
+    image: './images/Frame 34.png',
     rating: 3.0,
     currentPrice: 80,
     originalPrice: null,
@@ -34,7 +34,7 @@ const products = [
   {
     id: 4,
     name: 'Faded Skinny Jeans',
-    image: '/images/skinny-jeans.png',
+    image: './images/Frame 38 (1).png',
     rating: 4.5,
     currentPrice: 210,
     originalPrice: null,

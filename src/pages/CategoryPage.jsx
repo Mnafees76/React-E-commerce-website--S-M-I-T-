@@ -1,10 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-// Agki requirement ke mutabiq components import karein
 
-// Agar ProductCard component use karna ho to ise uncomment karein:
-// import ProductCard from '../components/ProductCard';
 
 const CategoryPage = () => {
   // Demo Products Data
@@ -14,14 +11,14 @@ const CategoryPage = () => {
       name: 'Gradient Graphic T-shirt',
       rating: 3.5,
       price: 145,
-      image: 'https://via.placeholder.com/300x300/E6E6FA/000000?text=Gradient+Tee'
+      image: './images/image-8.png',
     },
     {
       id: 2,
       name: 'Polo with Tipping Details',
       rating: 4.5,
       price: 180,
-      image: 'https://via.placeholder.com/300x300/DB7093/FFFFFF?text=Polo+Tipping'
+      image: './images/image 9 (1).png'
     },
     {
       id: 3,
@@ -30,7 +27,7 @@ const CategoryPage = () => {
       price: 120,
       originalPrice: 150,
       discount: '-20%',
-      image: 'https://via.placeholder.com/300x300/333333/FFFFFF?text=Black+Striped'
+      image: './images/Frame 38 (2).png'
     },
     {
       id: 4,
@@ -39,14 +36,14 @@ const CategoryPage = () => {
       price: 240,
       originalPrice: 260,
       discount: '-20%',
-      image: 'https://via.placeholder.com/300x300/1E3A8A/FFFFFF?text=Skinny+Jeans'
+      image:  './images/pant .png'
     },
     {
       id: 5,
       name: 'Checkered Shirt',
       rating: 4.5,
       price: 180,
-      image: 'https://via.placeholder.com/300x300/8B0000/FFFFFF?text=Checkered+Shirt'
+      image:  './images/image 9.png'
     },
     {
       id: 6,
@@ -55,7 +52,7 @@ const CategoryPage = () => {
       price: 130,
       originalPrice: 160,
       discount: '-20%',
-      image: 'https://via.placeholder.com/300x300/D2691E/FFFFFF?text=Sleeve+Striped'
+      image:  './images/Frame 38.png'
     },
     {
       id: 7,
@@ -64,21 +61,21 @@ const CategoryPage = () => {
       price: 212,
       originalPrice: 232,
       discount: '-20%',
-      image: 'https://via.placeholder.com/300x300/2E8B57/FFFFFF?text=Vertical+Striped'
+      image:  './images/Frame .png'
     },
     {
       id: 8,
       name: 'Courage Graphic T-shirt',
       rating: 4.0,
       price: 145,
-      image: 'https://via.placeholder.com/300x300/FF4500/FFFFFF?text=Courage+Tee'
+      image: './images/shart.png'
     },
     {
       id: 9,
       name: 'Loose Fit Bermuda Shorts',
       rating: 3.0,
       price: 80,
-      image: 'https://via.placeholder.com/300x300/4682B4/FFFFFF?text=Bermuda+Shorts'
+      image:  './images/Frame 34.png'
     }
   ]);
 
@@ -233,7 +230,11 @@ const CategoryPage = () => {
             {/* PRODUCT CARDS GRID */}
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
               {products.map((item) => (
-                <div key={item.id} className="group cursor-pointer">
+                <Link 
+                  key={item.id} 
+                  to={`/product/${item.id}`} 
+                  className="group cursor-pointer block"
+                >
                   <div className="bg-[#F0EEED] rounded-2xl p-4 mb-3 flex items-center justify-center h-48 md:h-64 overflow-hidden">
                     <img
                       src={item.image}
@@ -262,7 +263,7 @@ const CategoryPage = () => {
                       </span>
                     )}
                   </div>
-                </div>
+                </Link>
               ))}
             </div>
 
@@ -289,7 +290,6 @@ const CategoryPage = () => {
         </div>
       </main>
 
-     
     </div>
   );
 };

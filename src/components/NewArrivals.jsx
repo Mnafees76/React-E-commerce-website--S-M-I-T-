@@ -8,7 +8,7 @@ const productsData = [
   {
     id: 1,
     name: 'T-shirt with Tape Details',
-    image: './images/Frame 38 (2).png',
+    image: './images/black.png',
     rating: 4.5,
     originalPrice: 120,
     currentPrice: 120,
@@ -19,7 +19,7 @@ const productsData = [
   {
     id: 2,
     name: 'Skinny Fit Jeans',
-    image: './images/Frame .png',
+    image: './images/pant .png',
     rating: 3.5,
     originalPrice: 260,
     currentPrice: 240,
@@ -30,7 +30,7 @@ const productsData = [
   {
     id: 3,
     name: 'Checkered Shirt',
-    image: './images/black.png',
+    image: './images/image 9.png',
     rating: 4.5,
     originalPrice: 180,
     currentPrice: 180,
@@ -41,7 +41,7 @@ const productsData = [
   {
     id: 4,
     name: 'Sleeve Striped T-shirt',
-    image: './images/bbf411c25fc84f87eeac1062fbe47f49c192d4f2.png',
+    image: './images/Frame 38.png',
     rating: 4.5,
     originalPrice: 160,
     currentPrice: 130,
