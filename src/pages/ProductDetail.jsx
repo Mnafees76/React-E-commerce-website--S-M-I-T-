@@ -283,11 +283,11 @@ const ProductDetail = () => {
               ))}
             </div>
 
-            <div className="bg-[#F0EEED] rounded-3xl p-6 flex items-center justify-center grow min-h-[350px] md:min-h-[450px]">
+            <div className="bg-[#F0EEED] rounded-3xl p-6 flex items-center justify-center grow min-h-87.5 md:min-h-112.5">
               <img
                 src={imageList[selectedImageIndex] || imageList[0]}
                 alt={product.name}
-                className="max-h-[350px] object-contain"
+                className="max-h-87.5 object-contain"
               />
             </div>
           </div>
