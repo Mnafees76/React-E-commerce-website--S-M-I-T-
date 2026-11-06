@@ -8,7 +8,7 @@ const NewArrivals = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch('https://backend-psi-ecru-75.vercel.app//api/products');
+        const response = await fetch('http://localhost:5000/api/products');
         const data = await response.json();
         setProducts(data);
         setLoading(false);
